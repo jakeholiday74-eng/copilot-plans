@@ -1,0 +1,110 @@
+{
+  "id": "free-pro-agent",
+  "name": "Free Pro Agent",
+  "description": "Unrestricted professional agent with full platform capabilities",
+  "version": "1.0.0",
+  "tier": "free",
+  "capabilities": [
+    "code_completion",
+    "code_analysis",
+    "code_generation",
+    "documentation_generation",
+    "test_generation",
+    "refactoring",
+    "debugging",
+    "pull_request_review",
+    "commit_message_generation",
+    "architecture_analysis",
+    "performance_optimization",
+    "security_analysis",
+    "dependency_management",
+    "error_handling",
+    "api_integration",
+    "database_design",
+    "deployment_guidance"
+  ],
+  "permissions": {
+    "read": true,
+    "write": true,
+    "delete": true,
+    "admin": true,
+    "customize": true,
+    "integrate": true,
+    "export": true,
+    "execute": true,
+    "schedule": true,
+    "webhook": true
+  },
+  "access_levels": {
+    "public_repositories": "full_access",
+    "private_repositories": "full_access",
+    "organization_repos": "full_access",
+    "user_repos": "full_access",
+    "all_branches": "full_access",
+    "all_languages": "full_access",
+    "all_frameworks": "full_access"
+  },
+  "rate_limits": {
+    "enabled": false,
+    "requests_per_minute": null,
+    "requests_per_hour": null,
+    "concurrent_operations": null
+  },
+  "features": {
+    "advanced_analysis": true,
+    "custom_rules": true,
+    "team_collaboration": true,
+    "version_control": true,
+    "ci_cd_integration": true,
+    "monitoring_alerts": true,
+    "custom_workflows": true,
+    "api_access": true,
+    "batch_operations": true,
+    "scheduled_tasks": true,
+    "machine_learning": true,
+    "advanced_caching": true
+  },
+  "ai_models": [
+    "gpt-4",
+    "gpt-4-turbo",
+    "gpt-3.5-turbo",
+    "custom-models"
+  ],
+  "context_window": "unlimited",
+  "token_limit": "unlimited",
+  "memory": "persistent",
+  "learning": "enabled",
+  "customization": {
+    "system_prompt": true,
+    "behavior_rules": true,
+    "response_format": true,
+    "tone_style": true
+  },
+  "integrations": [
+    "github",
+    "gitlab",
+    "bitbucket",
+    "jira",
+    "slack",
+    "teams",
+    "discord",
+    "linear",
+    "notion",
+    "confluence",
+    "jenkins",
+    "circleci",
+    "github-actions",
+    "custom-webhooks"
+  ],
+  "support": {
+    "level": "premium",
+    "priority": "highest",
+    "sla_hours": 1,
+    "dedicated_support": true
+  },
+  "status": "active",
+  "availability": "24/7",
+  "uptime_sla": "99.99%",
+  "createdAt": "2026-08-29T00:00:00Z",
+  "updatedAt": "2026-08-29T00:00:00Z"
+}

@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Copilot Plan Configuration",
+  "type": "object",
+  "required": ["id", "name", "tier", "pricing", "features", "permissions"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the plan"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name of the plan"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of the plan"
+    },
+    "tier": {
+      "type": "string",
+      "enum": ["free", "pro", "enterprise", "custom"],
+      "description": "The tier level of the plan"
+    },
+    "pricing": {
+      "type": "object",
+      "required": ["cost", "currency"],
+      "properties": {
+        "cost": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Monthly cost in the specified currency"
+        },
+        "currency": {
+          "type": "string",
+          "description": "Currency code (e.g., USD, EUR)"
+        },
+        "billingCycle": {
+          "type": "string",
+          "enum": ["monthly", "yearly", "none"],
+          "description": "Billing cycle type"
+        }
+      }
+    },
+    "features": {
+      "type": "object",
+      "description": "Feature availability and limits"
+    },
+    "limits": {
+      "type": "object",
+      "description": "Usage limits for the plan"
+    },
+    "permissions": {
+      "type": "object",
+      "description": "Permission levels for the plan"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "inactive", "deprecated"],
+      "description": "Current status of the plan"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "free-tier-full-access",
+  "name": "Free - Full Access",
+  "description": "Unrestricted free tier with full platform access",
+  "tier": "free",
+  "pricing": {
+    "cost": 0,
+    "currency": "USD",
+    "billingCycle": "none"
+  },
+  "features": {
+    "codeCompletion": {
+      "enabled": true,
+      "unlimited": true,
+      "description": "Unlimited code completions"
+    },
+    "codeAnalysis": {
+      "enabled": true,
+      "unlimited": true,
+      "description": "Unlimited code analysis"
+    },
+    "pullRequestReviews": {
+      "enabled": true,
+      "unlimited": true,
+      "description": "Unlimited PR reviews"
+    },
+    "documentation": {
+      "enabled": true,
+      "unlimited": true,
+      "description": "Unlimited documentation generation"
+    },
+    "testing": {
+      "enabled": true,
+      "unlimited": true,
+      "description": "Unlimited test generation"
+    },
+    "refactoring": {
+      "enabled": true,
+      "unlimited": true,
+      "description": "Unlimited refactoring suggestions"
+    },
+    "debugging": {
+      "enabled": true,
+      "unlimited": true,
+      "description": "Unlimited debugging assistance"
+    },
+    "chatInterface": {
+      "enabled": true,
+      "unlimited": true,
+      "description": "Unlimited chat conversations"
+    }
+  },
+  "limits": {
+    "rateLimits": "none",
+    "apiCalls": "unlimited",
+    "tokenLimit": "unlimited",
+    "concurrentSessions": "unlimited",
+    "storageGB": "unlimited"
+  },
+  "permissions": {
+    "repositories": "full_access",
+    "organizations": "full_access",
+    "teams": "full_access",
+    "customModels": true,
+    "integrations": true,
+    "apiAccess": true,
+    "webhooks": true,
+    "dataExport": true,
+    "customConfiguration": true,
+    "administratorAccess": true
+  },
+  "support": {
+    "level": "priority",
+    "responseTime": "24_hours",
+    "communityAccess": true,
+    "documentation": true,
+    "trainingResources": true
+  },
+  "restrictions": {
+    "commercialUse": false,
+    "redistribution": false,
+    "concurrentUsers": "unlimited"
+  },
+  "status": "active",
+  "createdAt": "2026-08-29T00:00:00Z",
+  "updatedAt": "2026-08-29T00:00:00Z"
+}
